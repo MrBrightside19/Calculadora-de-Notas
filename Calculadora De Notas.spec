@@ -4,7 +4,7 @@ block_cipher = None
 
 
 a = Analysis(['Calculadora De Notas.py'],
-             pathex=['C:\\Users\\gabri\\Desktop\\Gabriel\\Programacion\\PYTHON\\Notas\\CalculoDeNotasV3.1.1'],
+             pathex=['C:\\Users\\gabri\\Desktop\\Gabriel\\Programacion\\PYTHON\\Notas\\Calculadora-de-Notas'],
              binaries=[],
              datas=[],
              hiddenimports=[],

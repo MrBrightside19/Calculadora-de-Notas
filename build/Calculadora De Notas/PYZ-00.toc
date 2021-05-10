@@ -1,4 +1,4 @@
-('C:\\Users\\gabri\\Desktop\\Gabriel\\Programacion\\PYTHON\\Notas\\CalculoDeNotasV3.1.1\\build\\Calculadora '
+('C:\\Users\\gabri\\Desktop\\Gabriel\\Programacion\\PYTHON\\Notas\\Calculadora-de-Notas\\build\\Calculadora '
  'De Notas\\PYZ-00.pyz',
  [('multiprocessing.popen_spawn_posix',
    'c:\\python39\\lib\\multiprocessing\\popen_spawn_posix.py',
@@ -349,15 +349,15 @@
    'c:\\python39\\lib\\multiprocessing\\__init__.py',
    'PYMODULE'),
   ('_py_abc', 'c:\\python39\\lib\\_py_abc.py', 'PYMODULE'),
-  ('tracemalloc', 'c:\\python39\\lib\\tracemalloc.py', 'PYMODULE'),
   ('stringprep', 'c:\\python39\\lib\\stringprep.py', 'PYMODULE'),
+  ('tracemalloc', 'c:\\python39\\lib\\tracemalloc.py', 'PYMODULE'),
   ('win32con',
    'c:\\python39\\lib\\site-packages\\win32\\lib\\win32con.py',
    'PYMODULE'),
   ('os', 'c:\\python39\\lib\\os.py', 'PYMODULE'),
   ('pathlib', 'c:\\python39\\lib\\pathlib.py', 'PYMODULE'),
   ('algoritmo',
-   'C:\\Users\\gabri\\Desktop\\Gabriel\\Programacion\\PYTHON\\Notas\\CalculoDeNotasV3.1.1\\algoritmo.py',
+   'C:\\Users\\gabri\\Desktop\\Gabriel\\Programacion\\PYTHON\\Notas\\Calculadora-de-Notas\\algoritmo.py',
    'PYMODULE'),
   ('tkinter.simpledialog',
    'c:\\python39\\lib\\tkinter\\simpledialog.py',

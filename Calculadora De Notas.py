@@ -77,10 +77,12 @@ def limpiar():
         Entry_Nota[i].delete(0,"end")
         Entry_Pond[i].configure(state="normal")
         Entry_Pond[i].delete(0,"end")
-        if i > 0:
-            Entry_Pond[i].configure(state="disabled")
-            Entry_Nota[i].configure(state="disabled")
         quitar()
+        if i > 0 :
+            Entry_Nota[i].configure(state="disabled")
+            Entry_Pond[i].configure(state="disabled")
+        if Button_CPond.winfo_ismapped() and i == 0:
+            Entry_Pond[0].configure(state="disabled")
     Respuesta.delete("1.0", "end")
     Entry_NotaMinima.delete(0, "end")
     Text_Ramo.delete(0, "end")
