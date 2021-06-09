@@ -131,12 +131,13 @@ def seleccionar(event):
                 Entry_NotaMinima.insert(0,ramo[2])
                 if ramo[1] == 'S':
                     for i in range(int((len(ramo)-3)/2)):
+                        activar()
                         Entry_Nota[i].insert(0,str(ramo[j]))
                         j+=1
                         Entry_Pond[i].insert(0,str(ramo[j]))
                         j+=1
                         agregar()
-                        activar() 
+
                 else:
                     desactivar()
                     for i in range(int((len(ramo)-3)/2)):
