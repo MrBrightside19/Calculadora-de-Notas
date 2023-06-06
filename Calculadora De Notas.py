@@ -4,8 +4,6 @@ from tkinter import messagebox ,ttk,simpledialog
 import algoritmo as C
 from pathlib import Path
 import os
-import win32file
-import win32con
 os.system("cls")
 
 ABOUT_TEXT = """
@@ -247,7 +245,7 @@ def validate_entry(text):
     return text.isdecimal()
 
 raiz = Tk()
-raiz.geometry("370x480")
+raiz.geometry("600x550")
 raiz.resizable(False,False)
 raiz.title("Calculadora de Notas")
 raiz.counter= 1 
